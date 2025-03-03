@@ -10,6 +10,7 @@ class Egresado extends Model
     use HasFactory;
 
     protected $table = 'egresados';
+    public $timestamps = false;
     protected $fillable = [
         'identificacion_tipo', 'identificacion_numero', 'fotografia', 'nombre', 'apellidos',
         'celular', 'direccion', 'email', 'fecha_nacimiento', 'contrasena', 'ciudad_id'

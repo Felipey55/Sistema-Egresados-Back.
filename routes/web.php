@@ -8,6 +8,4 @@ Route::get('/', function () {
 });
 
 
-Route::get('/egresados', [EgresadoController::class, 'index']);
-
 
